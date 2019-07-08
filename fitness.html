@@ -5,9 +5,12 @@
 
 		<meta charset="utf-8">
 
-		<title></title>
+		<title>NW:Fitness | Fitness</title>
 
-		<link type="text/css" rel="stylesheet" href="styles.css" />
+		<link type="text/css" rel="stylesheet" href="css/styles.css" />
+
+		<!--Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,10 +18,59 @@
 			<script src="js/html5shiv-printshiv.min.js"></script>
 		<![endif]-->
 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 	</head>
 
-	<body>
+  <body>
 
+		<button class="hamburger">&#9776;</button>
+    <button class="cross">&#735;</button>
+
+		<header>
+			<a href="index.html"><img src="images/nw-logo.png" class="hamburger-logo" alt="NW Fitness Logo" title="NW Fitness Logo" /></a>
+			<nav class="menu">
+				<ul class="main-nav">
+					<li><a href="about.html">About</a></li>
+					<li><a href="fitness.html">Fitness</a></li>
+					<li><a href="nutrition.html">Nutrition</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+			<nav class="desktop-menu">
+				<ul class="main-nav">
+					<li><a href="index.html"><img src="images/nw-logo.png" alt="NW Fitness Logo" title="NW Fitness Logo" /></a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="fitness.html" class="active">Fitness</a></li>
+					<li><a href="nutrition.html">Nutrition</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<section class="hero-image-about">
+				<h1>Meet <span>Your Team</span></h1>
+				<a class="button-hero" href="fitness.html">Fitness</a>
+	    </section>
+
+			<section class="page-description">
+				<h2>You are Our Top Priority</h2>
+				<p>Welcome! We couldn’t be more excited to meet you. We are a young, ambitious team of personal trainers, chefs and nutritionists dedicated to fitness and healthy lifestyles. Your personal goals, ambitions and journey are our top priority. No matter if you are trying to lose weight, strive to get more fit and toned or simply want to live a healthier, happier life, our purpose is to guide you, push you, hold you accountable and cheer you on along the way. Before we get started, meet our team's key players who will be with you every step of the way.</p>
+			</section>
+		</main>
+
+		<footer>
+      <div class="social-links">
+        <a href="https://www.facebook.com" target="_blank"><img class="social-icon" src="images/facebook.png" alt="Facebook Icon" title="Faceook Icon" /></a>
+        <a href="https://www.instagram.com" target="_blank"><img class="social-icon" src="images/instagram.png" alt="Instagram Icon" title="Instagram Icon" /></a>
+        <a href="https://www.youtube.com" target="_blank"><img class="social-icon" src="images/youtube.png" alt="YouTube Icon" title="YouTube Icon" /></a>
+      </div>
+      <p>&copy; Nick Woden Fitness | 2019</p>
+		</footer>
+
+		<script src="js/hamburger.js"></script>
 
 	</body>
 
