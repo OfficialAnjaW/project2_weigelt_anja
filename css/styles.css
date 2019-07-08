@@ -123,6 +123,30 @@ nav img {
   text-align: center;
 }
 
+.hero-image-nutrition {
+  background-image: url('../images/hero-nutrition.jpg');
+  background-size: cover;
+	background-position: right;
+  padding: 35% 0;
+  text-align: center;
+}
+
+.hero-image-fitness {
+  background-image: url('../images/hero-fitness.jpg');
+  background-size: cover;
+	background-position: right;
+  padding: 35% 0;
+  text-align: center;
+}
+
+.hero-image-contact {
+  background-image: url('../images/hero-contact.jpg');
+  background-size: cover;
+	background-position: right;
+  padding: 35% 0;
+  text-align: center;
+}
+
 .button-hero {
   text-decoration: none;
 	font-weight: 500;
@@ -132,6 +156,9 @@ nav img {
 	border-radius: 0.3rem;
 }
 
+.hero-image-contact a:hover,
+.hero-image-fitness a:hover,
+.hero-image-nutrition a:hover,
 .hero-image-about a:hover,
 .hero-image-index a:hover {
   background: rgba(212, 175, 55, 0.2);
