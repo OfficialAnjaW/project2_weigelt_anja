@@ -252,6 +252,28 @@ figcaption {
 
 /*===================
 *
+* Nutrition Image Grid
+*
+=====================*/
+
+.image-grid img {
+	max-width: 100%;
+}
+
+.image-grid {
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 20%;
+}
+
+.image-grid figcaption {
+	padding: 4% 0;
+	color: #d4af37;
+}
+
+/*===================
+*
 * Footer
 *
 =====================*/
@@ -323,6 +345,16 @@ footer img {
 
 /* ----------------- END 500PX-647PX MEDIA QUERY ----------------- */
 
+/* -------------------- START 600PX MEDIA QUERY ----------------------*/
+
+@media (min-width: 600px) {
+	figure {
+		width: 50%;
+	}
+}
+
+/* -------------------- END 600PX MEDIA QUERY ----------------------*/
+
 /* ----------------- START 700PX MEDIA QUERY ----------------- */
 
 @media (min-width: 700px) {
@@ -355,6 +387,17 @@ footer img {
 }
 
 /* ----------------- END 777PX MEDIA QUERY ----------------- */
+
+/* -------------------- START 900PX MEDIA QUERY ----------------------*/
+
+@media (min-width: 900px) {
+	figure {
+		width: 33.33333333%;
+	}
+
+}
+
+/* -------------------- END 900PX MEDIA QUERY ----------------------*/
 
 /* ----------------- START 1060PX MEDIA QUERY ----------------- */
 
@@ -457,6 +500,10 @@ footer img {
 		padding: 2% 0;
 	}
 
+	.image-grid {
+		padding-bottom: 10%;
+	}
+
 }
 
 /* ----------------- END 1100PX MEDIA QUERY ----------------- */
@@ -472,6 +519,16 @@ footer img {
 }
 
 /* ----------------- END 1100PX-1443PX MEDIA QUERY ----------------- */
+
+/* -------------------- START 1200PX MEDIA QUERY ----------------------*/
+
+@media (min-width: 1200px) {
+	figure {
+		width: 25%;
+	}
+}
+
+/* -------------------- END 1200PX MEDIA QUERY ----------------------*/
 
 /* ----------------- START 1300PX MEDIA QUERY ----------------- */
 
