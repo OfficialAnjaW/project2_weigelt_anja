@@ -274,6 +274,36 @@ figcaption {
 
 /*===================
 *
+* Image Slider
+*
+=====================*/
+
+.slider {
+		width: 50%;
+		margin: 100px auto;
+}
+
+.slick-slide {
+	margin: 0px 20px;
+}
+
+/*===================
+*
+* Fitness Disclaimer
+*
+=====================*/
+
+aside .disclaimer {
+	text-align: center;
+}
+
+.disclaimer p {
+	font-style:italic;
+	color: #d4af37;
+}
+
+/*===================
+*
 * Footer
 *
 =====================*/
